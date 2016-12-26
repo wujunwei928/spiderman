@@ -1,0 +1,23 @@
+{
+
+    "name": "wujunwei928/spiderman",
+    "type": "library",
+    "description": "spiderman is a php spider",
+    "keywords": ["spider"],
+    "homepage": "https://wujunwei.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WuJunwei",
+            "email": "wujunwei928@qq.com",
+            "homepage": "https://wujunwei.net"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.2",
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.2",
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^1.22"
+    }
+}
