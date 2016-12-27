@@ -14,15 +14,14 @@
         }
     ],
     "require": {
+        "fabpot/goutte": "^3.2",
         "symfony/console": "^3.2",
-        "symfony/dom-crawler": "^3.2",
-        "symfony/css-selector": "^3.2",
-        "guzzlehttp/guzzle": "^6.2",
-        "monolog/monolog": "^1.22"
+        "monolog/monolog": "^1.22",
+        "slim/slim": "^3.7"
     },
     "autoload": {
         "psr-4":{
-            "Wujunwei928\\SpiderMan\\": "src/"
+            "SpiderMan\\": "src/"
         }
     }
 }
