@@ -19,5 +19,10 @@
         "symfony/css-selector": "^3.2",
         "guzzlehttp/guzzle": "^6.2",
         "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-4":{
+            "Wujunwei928\\SpiderMan\\": "src/"
+        }
     }
 }
